@@ -14,10 +14,9 @@ export const SearchBar: React.FC = () => {
       <TextField
         id="search-bar"
         className="text"
-        value={"sadfds"}
+        value={"filmName"}
         onChange={(prop) => {
           console.log("asfdsfa");
-          //   setFilmName(prop.target.value);
         }}
         label="Enter the film name..."
         variant="outlined"
@@ -26,8 +25,7 @@ export const SearchBar: React.FC = () => {
       />
       <Button
         onClick={() => {
-          console.log("dasf");
-          //   search();
+          console.log("Left click");
         }}
       >
         <SearchIcon style={{ fill: "blue" }} />
