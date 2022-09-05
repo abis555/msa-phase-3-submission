@@ -3,18 +3,30 @@ import axios from "axios";
 import { useState } from "react";
 import SearchIcon from "@mui/icons-material/Search";
 import TextField from "@mui/material/TextField";
-import { Box, Button, Grid, Paper, Skeleton } from "@mui/material";
+import { Button, Grid, Paper, Skeleton, Typography } from "@mui/material";
+import { useTheme } from "@mui/material/styles";
+import useMediaQuery from "@mui/material/useMediaQuery";
 
 function index() {
   const [filmName, setFilmName] = useState("");
   const [filmInfo, setFilmInfo] = useState<undefined | any>(undefined);
+
+  const theme = useTheme();
+  const matches = useMediaQuery(theme.breakpoints.down("sm"));
 
   const FILM_BASE_API_URL = "https://ghibliapi.herokuapp.com/films";
   return (
     <div>
       <div className="search-field">
         <div style={{ display: "flex", justifyContent: "center" }}>
-          <h1>Studio Ghibli Movie Search</h1>
+          <Typography
+            variant={matches ? "h4" : "h3"}
+            fontWeight={matches ? "600" : "550"}
+            align="center"
+            padding="10px 0px 20px 0px"
+          >
+            Studio Ghibli Movie Search
+          </Typography>
         </div>
         <div style={{ display: "flex", justifyContent: "center" }}>
           <TextField
@@ -48,21 +60,14 @@ function index() {
           style={{
             maxWidth: "800px",
             margin: "0 auto",
-            padding: "50px 10px 0px 10px",
+            padding: "40px 10px 0px 10px",
           }}
         >
           <Paper
-            sx={{ backgroundColor: "#BDF8FF", padding: "12px" }}
+            sx={{ backgroundColor: "#BDF8FF", padding: "10px 12px 12px 10px" }}
             elevation={24}
           >
-            <Grid
-              container
-              direction="row"
-              spacing={3}
-              sx={{
-                justifyContent: "center",
-              }}
-            >
+            <Grid container direction="row" spacing={3} justifyContent="center">
               <Grid item>
                 <div>
                   {filmInfo === undefined || filmInfo.length === 0 ? (
@@ -93,8 +98,8 @@ function index() {
                 <div>
                   {filmInfo[0]?.image ? (
                     <img
-                      height="300px"
-                      width="300px"
+                      height={matches ? "200px" : "300px"}
+                      width={matches ? "200px" : "300px"}
                       alt={filmInfo[0].title}
                       src={filmInfo[0].image}
                     ></img>
