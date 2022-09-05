@@ -7,8 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "storybook": "start-storybook -p 6006 -s ./public",
+    "build-storybook": "build-storybook -s public"
   },
   "dependencies": {
     "@emotion/react": "^11.10.4",
@@ -18,7 +18,8 @@
     "axios": "^0.27.2",
     "next": "12.2.5",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "styled-components": "^5.3.5"
   },
   "devDependencies": {
     "@babel/core": "^7.18.13",
