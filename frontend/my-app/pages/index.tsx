@@ -7,7 +7,7 @@ import { Button, Grid, Paper, Skeleton, Typography } from "@mui/material";
 import { useTheme } from "@mui/material/styles";
 import useMediaQuery from "@mui/material/useMediaQuery";
 
-function index() {
+function Index() {
   const [filmName, setFilmName] = useState("");
   const [filmInfo, setFilmInfo] = useState<undefined | any>(undefined);
 
@@ -146,4 +146,4 @@ function index() {
   }
 }
 
-export default index;
+export default Index;
