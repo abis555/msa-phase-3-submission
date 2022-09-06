@@ -24,6 +24,8 @@ export const SearchBar: React.FC = () => {
         size="medium"
       />
       <Button
+        variant="outlined"
+        style={{ marginLeft: "10px" }}
         onClick={() => {
           console.log("Left click");
         }}

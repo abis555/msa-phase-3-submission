@@ -42,6 +42,8 @@ function Index() {
             size="medium"
           />
           <Button
+            variant="outlined"
+            style={{ marginLeft: "8px" }}
             onClick={() => {
               search();
             }}
