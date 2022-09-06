@@ -61,10 +61,17 @@ function index() {
             maxWidth: "800px",
             margin: "0 auto",
             padding: "40px 10px 0px 10px",
+            backgroundImage:
+              "url(" +
+              "https://upload.wikimedia.org/wikipedia/en/c/ca/Studio_Ghibli_logo.svg" +
+              ")",
           }}
         >
           <Paper
-            sx={{ backgroundColor: "#BDF8FF", padding: "10px 12px 12px 10px" }}
+            sx={{
+              backgroundColor: "#BDF8FF",
+              padding: "10px 12px 12px 10px",
+            }}
             elevation={24}
           >
             <Grid container direction="row" spacing={3} justifyContent="center">
