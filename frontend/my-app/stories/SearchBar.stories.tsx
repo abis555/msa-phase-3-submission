@@ -20,20 +20,3 @@ const Template: ComponentStory<typeof SearchBar> = (args) => (
 export const Default = Template.bind({});
 // More on args: https://storybook.js.org/docs/react/writing-stories/args
 Default.args = {};
-
-// export const Secondary = Template.bind({});
-// Secondary.args = {
-//   label: "Button",
-// };
-
-// export const Large = Template.bind({});
-// Large.args = {
-//   size: "large",
-//   label: "Button",
-// };
-
-// export const Small = Template.bind({});
-// Small.args = {
-//   size: "small",
-//   label: "Button",
-// };

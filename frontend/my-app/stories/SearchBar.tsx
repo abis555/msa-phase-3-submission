@@ -16,7 +16,7 @@ export const SearchBar: React.FC = () => {
         className="text"
         value={"filmName"}
         onChange={(prop) => {
-          console.log("asfdsfa");
+          console.log("TextField changed");
         }}
         label="Enter the film name..."
         variant="outlined"
@@ -25,7 +25,7 @@ export const SearchBar: React.FC = () => {
       />
       <Button
         variant="outlined"
-        style={{ marginLeft: "10px" }}
+        style={{ marginLeft: "8px" }}
         onClick={() => {
           console.log("Left click");
         }}
