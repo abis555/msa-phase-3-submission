@@ -14,7 +14,7 @@ export const SearchBar: React.FC = () => {
       <TextField
         id="search-bar"
         className="text"
-        value={"filmName"}
+        value={null}
         onChange={(prop) => {
           console.log("TextField changed");
         }}
