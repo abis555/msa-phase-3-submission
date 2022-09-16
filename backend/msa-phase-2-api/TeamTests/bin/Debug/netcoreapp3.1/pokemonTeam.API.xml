@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>pokemonTeam.API</name>
+    </assembly>
+    <members>
+        <member name="M:pokemonTeam.API.Controllers.PokemonController.#ctor(System.Net.Http.IHttpClientFactory)">
+            <summary />
+        </member>
+        <member name="M:pokemonTeam.API.Controllers.PokemonController.GetPokemon(System.String)">
+            <summary>
+            Gets the raw JSON consist of the searched pokemon 
+            </summary>
+            <returns>A JSON object representing all the details on that pokemon available in PokeApi</returns>
+        </member>
+        <member name="T:pokemonTeam.API.Controllers.TeamController">
+            <summary>
+            This is the Team Controller class that makes different Pokemon teams for the user.
+            </summary>
+        </member>
+        <member name="M:pokemonTeam.API.Controllers.TeamController.#ctor(System.Net.Http.IHttpClientFactory)">
+            <summary />
+        </member>
+        <member name="M:pokemonTeam.API.Controllers.TeamController.getPokemon(System.String,System.Net.Http.HttpClient)">
+            <summary />
+        </member>
+        <member name="M:pokemonTeam.API.Controllers.TeamController.Get(System.String)">
+            <summary>
+            Get Pokemon Team
+            </summary>
+            <returns>Team with given name</returns>
+        </member>
+        <member name="M:pokemonTeam.API.Controllers.TeamController.Get">
+            <summary>
+            Get Pokemon Team
+            </summary>
+            <returns>All teams</returns>
+        </member>
+        <member name="M:pokemonTeam.API.Controllers.TeamController.CreateAsync(System.String,System.DateTime)">
+            <summary>
+            Create Pokemon Team
+            </summary>
+            <param name="teamName">The name of the team</param>
+            <param name="DoB">The date of birth of the user. The user needs to input the date in YYYY/MM/DD format.</param>
+            <returns>Creates Team with given team name and Date of birth</returns>
+        </member>
+        <member name="M:pokemonTeam.API.Controllers.TeamController.UpdateAsync(System.String,System.String,System.String)">
+            <summary>
+            Update Pokemon Team
+            </summary>
+            <param name="oldPoke">The name of the pokemon that the user want to replace</param>
+            <param name="newPoke">The name of the pokemon that the user want to add in team</param>
+            <returns>Updates the team with given new pokemon with given old pokemon</returns>
+        </member>
+        <member name="M:pokemonTeam.API.Controllers.TeamController.UpdateTeamName(System.String,System.String)">
+            <summary>
+            Update Team Name
+            </summary>
+            <returns>Updates the team's name</returns>
+        </member>
+        <member name="M:pokemonTeam.API.Controllers.TeamController.Delete(System.String)">
+            <summary>
+            Delete Pokemon Team
+            </summary>
+            <returns>Deletes the team of given name</returns>
+        </member>
+        <member name="T:pokemonTeam.API.Controllers.WeatherForecastController">
+            <summary>
+            This is the weather forecast controller that comes as a default from the project template when creating
+            a new c# Web API application.
+            </summary>
+        </member>
+        <member name="M:pokemonTeam.API.Controllers.WeatherForecastController.Get">
+            <summary>
+            This endpoint takes no arguments, and gives you the weather forecast
+            </summary>
+            <returns>A JSON object describing the weather forecast</returns>
+        </member>
+    </members>
+</doc>

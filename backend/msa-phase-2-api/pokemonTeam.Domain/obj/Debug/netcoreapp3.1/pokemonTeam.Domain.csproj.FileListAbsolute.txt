@@ -1,0 +1,13 @@
+D:\Downloads\msa\msa-phase-3-submission\backend\msa-phase-2-api\pokemonTeam.Domain\bin\Debug\netcoreapp3.1\pokemonTeam.Domain.deps.json
+D:\Downloads\msa\msa-phase-3-submission\backend\msa-phase-2-api\pokemonTeam.Domain\bin\Debug\netcoreapp3.1\pokemonTeam.Domain.runtimeconfig.json
+D:\Downloads\msa\msa-phase-3-submission\backend\msa-phase-2-api\pokemonTeam.Domain\bin\Debug\netcoreapp3.1\pokemonTeam.Domain.runtimeconfig.dev.json
+D:\Downloads\msa\msa-phase-3-submission\backend\msa-phase-2-api\pokemonTeam.Domain\bin\Debug\netcoreapp3.1\pokemonTeam.Domain.dll
+D:\Downloads\msa\msa-phase-3-submission\backend\msa-phase-2-api\pokemonTeam.Domain\bin\Debug\netcoreapp3.1\pokemonTeam.Domain.pdb
+D:\Downloads\msa\msa-phase-3-submission\backend\msa-phase-2-api\pokemonTeam.Domain\obj\Debug\netcoreapp3.1\pokemonTeam.Domain.csproj.AssemblyReference.cache
+D:\Downloads\msa\msa-phase-3-submission\backend\msa-phase-2-api\pokemonTeam.Domain\obj\Debug\netcoreapp3.1\pokemonTeam.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Downloads\msa\msa-phase-3-submission\backend\msa-phase-2-api\pokemonTeam.Domain\obj\Debug\netcoreapp3.1\pokemonTeam.Domain.AssemblyInfoInputs.cache
+D:\Downloads\msa\msa-phase-3-submission\backend\msa-phase-2-api\pokemonTeam.Domain\obj\Debug\netcoreapp3.1\pokemonTeam.Domain.AssemblyInfo.cs
+D:\Downloads\msa\msa-phase-3-submission\backend\msa-phase-2-api\pokemonTeam.Domain\obj\Debug\netcoreapp3.1\pokemonTeam.Domain.csproj.CoreCompileInputs.cache
+D:\Downloads\msa\msa-phase-3-submission\backend\msa-phase-2-api\pokemonTeam.Domain\obj\Debug\netcoreapp3.1\pokemonTeam.Domain.dll
+D:\Downloads\msa\msa-phase-3-submission\backend\msa-phase-2-api\pokemonTeam.Domain\obj\Debug\netcoreapp3.1\pokemonTeam.Domain.pdb
+D:\Downloads\msa\msa-phase-3-submission\backend\msa-phase-2-api\pokemonTeam.Domain\obj\Debug\netcoreapp3.1\pokemonTeam.Domain.genruntimeconfig.cache

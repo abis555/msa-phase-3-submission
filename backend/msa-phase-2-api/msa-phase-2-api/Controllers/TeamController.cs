@@ -1,15 +1,17 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using msa_phase_2_api.Models;
-using msa_phase_2_api.Services;
+using pokemonTeam.Domain.Models;
+using pokemonTeam.Service.Services;
 using System;
 using System.Collections.Generic;
 using System.Net.Http;
 using System.Net.Http.Json;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+using pokemonTeam.Domain.DataAccess;
 
-namespace msa_phase_2_api.Controllers
+namespace pokemonTeam.API.Controllers
 {
-    
+
     /// <summary>
     /// This is the Team Controller class that makes different Pokemon teams for the user.
     /// </summary>
@@ -18,9 +20,10 @@ namespace msa_phase_2_api.Controllers
     public class TeamController : ControllerBase
     {
         private readonly HttpClient _client;
+        private readonly TeamContext _context;
 
         /// <summary />
-        public TeamController(IHttpClientFactory clientFactory)
+        public TeamController(IHttpClientFactory clientFactory, TeamContext context)
         {
             if (clientFactory is null)
             {
@@ -28,10 +31,11 @@ namespace msa_phase_2_api.Controllers
             }
 
             _client = clientFactory.CreateClient("pokemon");
+            _context = context;
         }
 
         /// <summary />
-        public static async Task<Pokemon> getPokemon (string value, HttpClient _client)
+        public static async Task<Pokemon> getPokemon(string value, HttpClient _client)
         {
             var res = await _client.GetAsync(value.ToString());
 
@@ -63,7 +67,7 @@ namespace msa_phase_2_api.Controllers
         [HttpGet]
         [Route("all")]
         [ProducesResponseType(200)]
-        public ActionResult<List<Team>> Get()
+        public async Task<ActionResult<List<Team>>> Get()
         {
             var team = TeamService.GetAll();
 
@@ -88,7 +92,8 @@ namespace msa_phase_2_api.Controllers
             if (DoB.ToString("yy") == "00")
             {
                 pokemonIndex.Add(rnd.Next(1, 905).ToString());
-            } else
+            }
+            else
             {
                 pokemonIndex.Add(DoB.ToString("yy"));
             }
@@ -104,6 +109,9 @@ namespace msa_phase_2_api.Controllers
             team.pokemons = pokemonList;
 
             TeamService.Add(team);
+
+            //_context.Teams.Add(team);
+            //await _context.SaveChangesAsync();
 
             return Ok(CreatedAtAction(nameof(CreateAsync), new { id = team.Id }, team));
         }
@@ -132,6 +140,9 @@ namespace msa_phase_2_api.Controllers
 
             team.pokemons[pokemonIndex] = newPokemon;
 
+            //_context.Entry(team).State = EntityState.Modified;
+            //await _context.SaveChangesAsync();
+
             return NoContent();
         }
 
@@ -142,13 +153,16 @@ namespace msa_phase_2_api.Controllers
         [HttpPut]
         [Route("name")]
         [ProducesResponseType(201)]
-        public IActionResult UpdateTeamName(string oldName, string newName)
+        public async Task<IActionResult> UpdateTeamName(string oldName, string newName)
         {
             var team = TeamService.Get(oldName);
 
             if (team is null) return BadRequest("Team not found. Team is either deleted or not made yet.");
 
             team.Name = newName;
+
+            //_context.Entry(team).State = EntityState.Modified;
+            //await _context.SaveChangesAsync();
 
             return NoContent();
         }
@@ -159,13 +173,18 @@ namespace msa_phase_2_api.Controllers
         /// <returns>Deletes the team of given name</returns>
         [HttpDelete]
         [ProducesResponseType(204)]
-        public IActionResult Delete(string teamName)
+        public async Task<IActionResult> Delete(string teamName)
         {
             var team = TeamService.Get(teamName);
 
             if (team is null) return BadRequest("Team not found. Team is either deleted or not made yet.");
 
+            var user = await _context.Teams.FindAsync(team.Id);
+
             TeamService.Delete(teamName);
+
+            //_context.Teams.Remove(user);
+            //await _context.SaveChangesAsync();
 
             return NoContent();
         }

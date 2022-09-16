@@ -13,7 +13,15 @@
             </summary>
             <returns>A JSON object representing all the details on that pokemon available in PokeApi</returns>
         </member>
+        <member name="T:msa_phase_2_api.Controllers.TeamController">
+            <summary>
+            This is the Team Controller class that makes different Pokemon teams for the user.
+            </summary>
+        </member>
         <member name="M:msa_phase_2_api.Controllers.TeamController.#ctor(System.Net.Http.IHttpClientFactory)">
+            <summary />
+        </member>
+        <member name="M:msa_phase_2_api.Controllers.TeamController.getPokemon(System.String,System.Net.Http.HttpClient)">
             <summary />
         </member>
         <member name="M:msa_phase_2_api.Controllers.TeamController.Get(System.String)">
@@ -32,12 +40,16 @@
             <summary>
             Create Pokemon Team
             </summary>
-            <returns>Creates Team with given team name</returns>
+            <param name="teamName">The name of the team</param>
+            <param name="DoB">The date of birth of the user. The user needs to input the date in YYYY/MM/DD format.</param>
+            <returns>Creates Team with given team name and Date of birth</returns>
         </member>
         <member name="M:msa_phase_2_api.Controllers.TeamController.UpdateAsync(System.String,System.String,System.String)">
             <summary>
             Update Pokemon Team
             </summary>
+            <param name="oldPoke">The name of the pokemon that the user want to replace</param>
+            <param name="newPoke">The name of the pokemon that the user want to add in team</param>
             <returns>Updates the team with given new pokemon with given old pokemon</returns>
         </member>
         <member name="M:msa_phase_2_api.Controllers.TeamController.UpdateTeamName(System.String,System.String)">
@@ -50,7 +62,7 @@
             <summary>
             Delete Pokemon Team
             </summary>
-            <returns>Deletes the team of given id</returns>
+            <returns>Deletes the team of given name</returns>
         </member>
         <member name="T:msa_phase_2_api.Controllers.WeatherForecastController">
             <summary>

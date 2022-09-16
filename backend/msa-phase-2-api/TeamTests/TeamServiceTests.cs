@@ -1,5 +1,5 @@
-using msa_phase_2_api.Models;
-using msa_phase_2_api.Services;
+using pokemonTeam.Domain.Models;
+using pokemonTeam.Service.Services;
 using NUnit.Framework;
 using System.Collections.Generic;
 

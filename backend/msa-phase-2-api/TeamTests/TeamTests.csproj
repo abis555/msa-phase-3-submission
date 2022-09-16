@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\msa-phase-2-api\msa-phase-2-api.csproj" />
+    <ProjectReference Include="..\msa-phase-2-api\pokemonTeam.API.csproj" />
   </ItemGroup>
 
 </Project>

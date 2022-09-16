@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace msa_phase_2_api.Controllers
+namespace pokemonTeam.API.Controllers
 {
 
     /// <summary>

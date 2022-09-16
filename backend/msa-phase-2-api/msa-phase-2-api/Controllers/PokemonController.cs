@@ -3,9 +3,9 @@ using System.Net.Http;
 using System.Net.Http.Json;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using msa_phase_2_api.Models;
+using pokemonTeam.Domain.Models;
 
-namespace msa_phase_2_api.Controllers
+namespace pokemonTeam.API.Controllers
 {
     [ApiController]
     [Route("[controller]")]

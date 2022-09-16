@@ -1,0 +1,16 @@
+D:\Downloads\msa\msa-phase-3-submission\backend\msa-phase-2-api\pokemonTeam.Service\bin\Debug\netcoreapp3.1\pokemonTeam.Service.deps.json
+D:\Downloads\msa\msa-phase-3-submission\backend\msa-phase-2-api\pokemonTeam.Service\bin\Debug\netcoreapp3.1\pokemonTeam.Service.runtimeconfig.json
+D:\Downloads\msa\msa-phase-3-submission\backend\msa-phase-2-api\pokemonTeam.Service\bin\Debug\netcoreapp3.1\pokemonTeam.Service.runtimeconfig.dev.json
+D:\Downloads\msa\msa-phase-3-submission\backend\msa-phase-2-api\pokemonTeam.Service\bin\Debug\netcoreapp3.1\pokemonTeam.Service.dll
+D:\Downloads\msa\msa-phase-3-submission\backend\msa-phase-2-api\pokemonTeam.Service\bin\Debug\netcoreapp3.1\pokemonTeam.Service.pdb
+D:\Downloads\msa\msa-phase-3-submission\backend\msa-phase-2-api\pokemonTeam.Service\bin\Debug\netcoreapp3.1\pokemonTeam.Domain.dll
+D:\Downloads\msa\msa-phase-3-submission\backend\msa-phase-2-api\pokemonTeam.Service\bin\Debug\netcoreapp3.1\pokemonTeam.Domain.pdb
+D:\Downloads\msa\msa-phase-3-submission\backend\msa-phase-2-api\pokemonTeam.Service\obj\Debug\netcoreapp3.1\pokemonTeam.Service.csproj.AssemblyReference.cache
+D:\Downloads\msa\msa-phase-3-submission\backend\msa-phase-2-api\pokemonTeam.Service\obj\Debug\netcoreapp3.1\pokemonTeam.Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\Downloads\msa\msa-phase-3-submission\backend\msa-phase-2-api\pokemonTeam.Service\obj\Debug\netcoreapp3.1\pokemonTeam.Service.AssemblyInfoInputs.cache
+D:\Downloads\msa\msa-phase-3-submission\backend\msa-phase-2-api\pokemonTeam.Service\obj\Debug\netcoreapp3.1\pokemonTeam.Service.AssemblyInfo.cs
+D:\Downloads\msa\msa-phase-3-submission\backend\msa-phase-2-api\pokemonTeam.Service\obj\Debug\netcoreapp3.1\pokemonTeam.Service.csproj.CoreCompileInputs.cache
+D:\Downloads\msa\msa-phase-3-submission\backend\msa-phase-2-api\pokemonTeam.Service\obj\Debug\netcoreapp3.1\pokemonTeam.Service.csproj.CopyComplete
+D:\Downloads\msa\msa-phase-3-submission\backend\msa-phase-2-api\pokemonTeam.Service\obj\Debug\netcoreapp3.1\pokemonTeam.Service.dll
+D:\Downloads\msa\msa-phase-3-submission\backend\msa-phase-2-api\pokemonTeam.Service\obj\Debug\netcoreapp3.1\pokemonTeam.Service.pdb
+D:\Downloads\msa\msa-phase-3-submission\backend\msa-phase-2-api\pokemonTeam.Service\obj\Debug\netcoreapp3.1\pokemonTeam.Service.genruntimeconfig.cache

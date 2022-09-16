@@ -1,21 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bisht\\Downloads\\msa\\msa-phase-3-submission\\backend\\msa-phase-2-api\\msa-phase-2-api\\msa-phase-2-api.csproj": {}
+    "D:\\Downloads\\msa\\msa-phase-3-submission\\backend\\msa-phase-2-api\\msa-phase-2-api\\msa-phase-2-api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bisht\\Downloads\\msa\\msa-phase-3-submission\\backend\\msa-phase-2-api\\msa-phase-2-api\\msa-phase-2-api.csproj": {
+    "D:\\Downloads\\msa\\msa-phase-3-submission\\backend\\msa-phase-2-api\\msa-phase-2-api\\msa-phase-2-api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bisht\\Downloads\\msa\\msa-phase-3-submission\\backend\\msa-phase-2-api\\msa-phase-2-api\\msa-phase-2-api.csproj",
+        "projectUniqueName": "D:\\Downloads\\msa\\msa-phase-3-submission\\backend\\msa-phase-2-api\\msa-phase-2-api\\msa-phase-2-api.csproj",
         "projectName": "msa-phase-2-api",
-        "projectPath": "C:\\Users\\bisht\\Downloads\\msa\\msa-phase-3-submission\\backend\\msa-phase-2-api\\msa-phase-2-api\\msa-phase-2-api.csproj",
+        "projectPath": "D:\\Downloads\\msa\\msa-phase-3-submission\\backend\\msa-phase-2-api\\msa-phase-2-api\\msa-phase-2-api.csproj",
         "packagesPath": "C:\\Users\\bisht\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bisht\\Downloads\\msa\\msa-phase-3-submission\\backend\\msa-phase-2-api\\msa-phase-2-api\\obj\\",
+        "outputPath": "D:\\Downloads\\msa\\msa-phase-3-submission\\backend\\msa-phase-2-api\\msa-phase-2-api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\bisht\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -76,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.411\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
         }
       }
     }

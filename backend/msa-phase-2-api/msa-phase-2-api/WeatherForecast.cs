@@ -1,6 +1,6 @@
 using System;
 
-namespace msa_phase_2_api
+namespace pokemonTeam.API
 {
     public class WeatherForecast
     {
