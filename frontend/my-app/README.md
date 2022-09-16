@@ -4,6 +4,8 @@ This is the frontend submission for NZMSA phase 2. It is a single page applicati
 
 The details of the movie is mainly consist of title, description, director, release year, running time, rotten tomato score and the poster. When user searching for a movie, the user needs to enter the title of the movie as accurately as possible as if entered incorrectly, the search will not return any results. The example can be seen below.
 
+[Vercel](https://msa-phase-3-submission.vercel.app/) link to the project.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
